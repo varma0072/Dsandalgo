@@ -22,8 +22,8 @@ public class SingleLinkedList {
         if(head == null){
             System.out.println("list is empty");
         }else{
-            while(current != null){
-                if(current.next.data == data){
+            while(current.next != null){
+                if(current.next.data   == data){
                     current.next = current.next.next;
                 }
                 current = current.next;
