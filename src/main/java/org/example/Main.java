@@ -4,6 +4,7 @@ import org.example.dsa.singlelinkedlist.SingleLinkedList;
 import org.example.sums.Addsum;
 import org.example.sums.DuplicateElementsInArray;
 import org.example.sums.RemoveVal;
+import org.example.sums.normalpracticeproblems.Palandrome;
 
 public class Main {
     public static void main(String[] args) {
@@ -27,7 +28,11 @@ public class Main {
 
         //Duplicate problem
 //        DuplicateElementsInArray.executeThisMethodAsMain();
+        //remove a value in given array
 //        RemoveVal.executeThisMethodAsMain();
+
+        /* practice problems */
+//        Palandrome.executeThisMethodAsMain();
 
     }
 }
