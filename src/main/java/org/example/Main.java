@@ -2,6 +2,8 @@ package org.example;
 
 import org.example.dsa.singlelinkedlist.SingleLinkedList;
 import org.example.sums.Addsum;
+import org.example.sums.DuplicateElementsInArray;
+import org.example.sums.RemoveVal;
 
 public class Main {
     public static void main(String[] args) {
@@ -15,12 +17,17 @@ public class Main {
 //        }
 
         //dsa singlelinkedlist
-        SingleLinkedList singleLinkedList = new SingleLinkedList();
-        singleLinkedList.insertAtEnd(4);
-        singleLinkedList.insertAtEnd(5);
-        singleLinkedList.insertAtTheBegining(2);
-        singleLinkedList.insertAtTheBegining(3);
-        singleLinkedList.removeByValue(2);
-        singleLinkedList.printAllList();
+//        SingleLinkedList singleLinkedList = new SingleLinkedList();
+//        singleLinkedList.insertAtEnd(1);
+//        singleLinkedList.insertAtEnd(2);
+//        singleLinkedList.insertAtEnd(2);
+//        singleLinkedList.insertAtEnd(4);
+//        singleLinkedList.removeByValue(2);
+//        singleLinkedList.printAllList();
+
+        //Duplicate problem
+//        DuplicateElementsInArray.executeThisMethodAsMain();
+//        RemoveVal.executeThisMethodAsMain();
+
     }
 }

@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="503eaba3-40ea-4fdf-9cf7-24ea0c6c30f6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sums/DuplicateElementsInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/sums/RemoveVal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dsa/singlelinkedlist/SingleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dsa/singlelinkedlist/SingleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,10 +94,19 @@
     <servers />
   </component>
   <component name="XDebuggerManager">
-    <pin-to-top-manager>
-      <pinned-members>
-        <PinnedItemInfo parentTag="org.example.dsa.singlelinkedlist.Node" memberName="next" />
-      </pinned-members>
-    </pin-to-top-manager>
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/dsa/singlelinkedlist/SingleLinkedList.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="current.next.next" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
