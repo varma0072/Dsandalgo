@@ -1,10 +1,8 @@
 package org.example;
 
-import org.example.dsa.singlelinkedlist.SingleLinkedList;
-import org.example.sums.Addsum;
-import org.example.sums.DuplicateElementsInArray;
-import org.example.sums.RemoveVal;
-import org.example.sums.normalpracticeproblems.Palandrome;
+import org.example.dsa.singlelinkedlist.ListNode;
+import org.example.dsa.singlelinkedlist.Solution;
+import org.example.sums.recursion.BinarySearchRecursion;
 
 public class Main {
     public static void main(String[] args) {
@@ -33,6 +31,26 @@ public class Main {
 
         /* practice problems */
 //        Palandrome.executeThisMethodAsMain();
+//   linked list two array merge function 
+//     Solution solution = new Solution();
+//     ListNode list1 = new ListNode(1);
+//     list1.next = new ListNode(2);
+//     list1.next.next = new ListNode(4);
 
+     // Create second linked list: 1 -> 3 -> 4
+//     ListNode list2 = new ListNode(1);
+//     list2.next = new ListNode(3);
+//     list2.next.next = new ListNode(4);
+//     ListNode rNode =  solution.mergeTwoLists(list1, list2);
+//     String rnoNodeString = "";
+//     while (rNode != null) {
+//        rnoNodeString =  rnoNodeString + rNode.val + " -> ";
+//        rNode = rNode.next;
+//     }
+//     System.out.println(rnoNodeString);
+
+        //Recursion Binary Search..
+        BinarySearchRecursion binarySearchRecursion = new BinarySearchRecursion();
+        System.out.println(binarySearchRecursion.searchTheArray(9));
     }
 }

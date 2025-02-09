@@ -1,8 +1,6 @@
 package org.example.sums;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 public class DuplicateElementsInArray {
     public int[] removeDuplicatesInArray(int[] duplicateArray){
